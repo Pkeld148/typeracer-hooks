@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+
+}
+
+button {
+  border-radius: 15px;
+  margin: 5px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
